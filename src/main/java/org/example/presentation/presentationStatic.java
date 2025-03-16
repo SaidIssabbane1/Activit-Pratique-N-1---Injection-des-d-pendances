@@ -2,6 +2,7 @@ package org.example.presentation;
 
 import org.example.dao.DaoImpl;
 import org.example.dao.IDao;
+import org.example.ext.DaoImplV2;
 import org.example.metier.MetierImpl;
 
 public class presentationStatic {

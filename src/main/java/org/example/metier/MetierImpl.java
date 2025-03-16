@@ -10,6 +10,10 @@ public class MetierImpl implements IMetier {
         this.idao = idao;
     }
 
+    public MetierImpl(){
+
+    }
+
     @Override
     public double calcul() {
         return idao.getData();
