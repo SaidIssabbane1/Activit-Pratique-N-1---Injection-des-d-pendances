@@ -7,7 +7,12 @@
     <bean id="d" class="org.example.dao.DaoImpl"/>
 
     <bean id="metier" class="org.example.metier.MetierImpl">
+        <!--
         <property name="idao" ref="d"/>
+        -->
+
+        <constructor-arg ref="d"/>
+
     </bean>
 
 </beans>
