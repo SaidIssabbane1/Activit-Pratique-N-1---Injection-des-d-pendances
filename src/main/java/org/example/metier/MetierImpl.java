@@ -14,6 +14,10 @@ public class MetierImpl implements IMetier {
 
     }
 
+    public void setIdao(IDao idao) {
+        this.idao = idao;
+    }
+
     @Override
     public double calcul() {
         return idao.getData();
